@@ -20,13 +20,10 @@ def upload_Video_To_PPTX(video_name):
         if filename.endswith(".mp4"):
             video_path = os.path.join(video_name, filename)
             video_name_without_extension = os.path.splitext(filename)[0]
-            # יצירת עמוד חדש במצגת
             slide = prs.slides.add_slide(prs.slide_layouts[5])
-            # הוספת כותרת לעמוד
             title = slide.shapes.title
             title.text = video_name_without_extension
             try:
-                # הוספת הוידאו לעמוד
                 slide.shapes.add_movie(
                     video_path,
                     left=0,
