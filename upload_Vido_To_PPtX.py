@@ -4,18 +4,18 @@ import os
 import threading
 from pptx import Presentation
 
-VIDEO_FOLDER = "test"  # נתיב לתיקיית הווידאו
-PPTX_PATH = "test/my-PowerPoint.pptx"  # נתיב לתיקיית המצגת
-
-# הגדרת רמת ההודעות והמידע שיודפס לקובץ
+##const
+VIDEO_FOLDER = "test"
+PPTX_PATH = "test/my-PowerPoint.pptx"
+# -----------------
 logging.basicConfig(filename="app.log", level=logging.INFO)
 
-# יצירת מצגת חדשה
 prs = Presentation()
 
 
-# לולאה על כל קובץ בתיקיית הוידאו
 def upload_Video_To_PPTX(video_name):
+    print("in app.log Record all events")
+
     for filename in os.listdir(video_name):
         if filename.endswith(".mp4"):
             video_path = os.path.join(video_name, filename)
@@ -44,7 +44,6 @@ def upload_Video_To_PPTX(video_name):
                 print(f"Error uploading file {video_name_without_extension}: {e}")
 
 
-# שמירת המצגת
 def File_Is_Existed(PPTX_PATH):
     if os.path.exists(PPTX_PATH):
         print("Adding to an existing PowerPoint file:{PPTX_PATH}")
