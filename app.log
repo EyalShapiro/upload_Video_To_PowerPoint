@@ -1,0 +1,43 @@
+INFO:root:file-pptx t.pptx
+WARNING:root:Error: 'UploadMediaPresentation' object has no attribute 'PPTX_PATH'
+INFO:root:file-pptx t.pptx
+WARNING:root:Error: 'UploadMediaPresentation' object has no attribute 'PPTX_PATH'
+INFO:root:file-pptx t.pptx
+WARNING:root:Error: 'UploadMediaPresentation' object has no attribute 'PPTX_PATH'
+INFO:root:file-pptx t.pptx
+INFO:root:file-pptx t.pptx
+INFO:root:file-pptx t.pptx
+INFO:root:Uploaded file: channels4_banner.jpg
+INFO:root:Uploaded file: file_example_MP4_480_1_5MG.mp4
+INFO:root:Uploaded file: pokeLegand.png
+INFO:root:Uploaded file: sample.wav
+INFO:root:Uploaded file: sample2.mp3
+INFO:root:Uploaded file: TextInMotion-VideoSample-1080p.mp4
+INFO:root:Uploaded file: yt1s.com_-_THE_SONG_360p.mp4
+INFO:root:Uploaded file: \u05e1\u05d8\u05e4\u05df \u05d5\u05e9\u05d5\u05e7\u05d5.mp4
+INFO:root:Saving presentation to t.pptx
+INFO:root:file-pptx t.pptx
+INFO:root:Uploaded file: channels4_banner.jpg
+INFO:root:Uploaded file: file_example_MP4_480_1_5MG.mp4
+INFO:root:Uploaded file: pokeLegand.png
+INFO:root:Uploaded file: sample.wav
+INFO:root:Uploaded file: sample2.mp3
+INFO:root:Uploaded file: TextInMotion-VideoSample-1080p.mp4
+INFO:root:Uploaded file: yt1s.com_-_THE_SONG_360p.mp4
+INFO:root:Uploaded file: \u05e1\u05d8\u05e4\u05df \u05d5\u05e9\u05d5\u05e7\u05d5.mp4
+INFO:root:Saving presentation to t.pptx
+INFO:root:file-pptx D:/Eyal/Codes/projectsGit/Upload_Media_To_PowerPoint/t.pptx
+INFO:root:Saving presentation to D:/Eyal/Codes/projectsGit/Upload_Media_To_PowerPoint/t.pptx
+INFO:root:file-pptx D:/Eyal/Codes/projectsGit/Upload_Media_To_PowerPoint/t.pptx
+INFO:root:Saving presentation to D:/Eyal/Codes/projectsGit/Upload_Media_To_PowerPoint/t.pptx
+INFO:root:file-pptx D:/Eyal/Codes/projectsGit/Upload_Media_To_PowerPoint/t.pptx
+INFO:root:Saving presentation to D:/Eyal/Codes/projectsGit/Upload_Media_To_PowerPoint/t.pptx
+INFO:root:file-pptx D:/Eyal/Codes/projectsGit/Upload_Media_To_PowerPoint/t.pptx
+INFO:root:Uploaded file: channels4_banner.jpg
+INFO:root:Uploaded file: file_example_MP4_480_1_5MG.mp4
+INFO:root:Uploaded file: pokeLegand.png
+INFO:root:Uploaded file: sample.wav
+INFO:root:Uploaded file: sample2.mp3
+INFO:root:Uploaded file: TextInMotion-VideoSample-1080p.mp4
+INFO:root:Uploaded file: yt1s.com_-_THE_SONG_360p.mp4
+INFO:root:Uploaded file: \u05e1\u05d8\u05e4\u05df \u05d5\u05e9\u05d5\u05e7\u05d5.mp4
