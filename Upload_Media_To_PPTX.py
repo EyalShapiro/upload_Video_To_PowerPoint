@@ -15,7 +15,7 @@ logging, logging.info(f"file-pptx {PPTX_PATH if PPTX_PATH else 'not pptx name'}"
 
 
 # Function to upload media files to the PowerPoint presentation
-def upload_media_to_pptx(media_folder, prs):
+def Upload_Media_To_PPTX(media_folder, prs):
     print(f"in {FILE_LOG} Record all events")
     try:
         for filename in os.listdir(media_folder):
@@ -77,7 +77,7 @@ def initialize_presentation(pptx_path):
 if __name__ == "__main__":
     prs = initialize_presentation(PPTX_PATH)
     try:
-        thread = threading.Thread(target=upload_media_to_pptx, args=(MEDIA_FOLDER, prs))
+        thread = threading.Thread(target=Upload_Media_To_PPTX, args=(MEDIA_FOLDER, prs))
         thread.start()
         thread.join()
         prs.save(PPTX_PATH)
